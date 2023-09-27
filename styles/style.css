@@ -1,17 +1,41 @@
-b {
+body {
     font-family: "Arial", sans-serif;
+    background-color: rgba(255, 255, 0, 0.192);
+    height: 110vh;
+    margin: 40px;
 }
 
 h1 {
     text-align: center;
+    font-style: italic;
+}
+
+hr {
+    border: 1px solid orange;
+}
+
+#mainList {
+    font-size: 20px;
+    width: 300px;
+    padding: 20px 50px;
+    border: 2px solid rgba(255, 153, 0, 0.644);
+    background-color: rgba(208, 255, 0, 0.466);
+    border-radius: 20px;
+    margin: 60px auto;
 }
 
 li {
     margin-bottom: 2px;
+    width: 800px;
 }
 .containerImg {
     height: 300px;
     display: flex;
     text-align: center;
     justify-content: center;
+    margin: 40px;
+}
+
+.navigationA {
+    margin-bottom: 8px;
 }
